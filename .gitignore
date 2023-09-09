@@ -1,3 +1,7 @@
 .idea
 .vscode
 assets
+build
+dist
+my_quant_framework.egg-info
+open_quant_app.egg-info

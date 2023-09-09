@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 from threading import Thread
 import time
 
-import open_quant_app.xtquant.xtdata as xt_data
+import xtquant.xtdata as xt_data
 
 
 class DownloadUtils:

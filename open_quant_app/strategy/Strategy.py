@@ -1,7 +1,7 @@
 from datetime import datetime
 import time
 
-import open_quant_app.xtquant.xtdata as xtdata
+import xtquant.xtdata as xtdata
 from open_quant_app.trade.Trader import Trader
 from open_quant_app.utils.FixedQueue import FixedQueue
 from open_quant_app.manager.OrderManager import OrderManager

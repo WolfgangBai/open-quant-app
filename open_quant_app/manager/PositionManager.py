@@ -1,7 +1,7 @@
 from typing import List
 
 from loguru import logger
-from open_quant_app.xtquant.xttype import XtPosition
+from xtquant.xttype import XtPosition
 
 
 class PositionManager:

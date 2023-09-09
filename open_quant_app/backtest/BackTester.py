@@ -1,8 +1,8 @@
 from typing import List, Dict
 
 from open_quant_app.manager.PositionManager import PositionManager
-from open_quant_app.xtquant import xtconstant
-from open_quant_app.xtquant.xttype import XtPosition
+from xtquant import xtconstant
+from xtquant.xttype import XtPosition
 
 from loguru import logger
 import pandas as pd
