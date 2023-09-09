@@ -3,8 +3,20 @@ import datetime
 
 class TimeUtils:
     @staticmethod
+    def get_morning_start() -> datetime.datetime:
+        return datetime.datetime.now().replace(hour=9, minute=30, second=0)
+
+    @staticmethod
     def get_morning_end() -> datetime.datetime:
         return datetime.datetime.now().replace(hour=11, minute=30, second=0, microsecond=0)
+
+    @staticmethod
+    def get_afternoon_start() -> datetime.datetime:
+        return datetime.datetime.now().replace(hour=13, minute=0, second=0)
+
+    @staticmethod
+    def get_afternoon_end() -> datetime.datetime:
+        return datetime.datetime.now().replace(hour=15, minute=0, second=0)
 
     @staticmethod
     def get_trade_time_seg() -> [datetime.datetime]:
