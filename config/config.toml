@@ -1,25 +1,20 @@
 [trade]
-env_path = 'D:\software\迅投QMT交易终端   国盛证券实盘版\userdata_mini'
+env_path = ''
 session_id = 123456
-account_id = '66086000120'
+account_id = ''
 
 [strategy]
-auto_mode = true
-# if auto_mode = false, you should set these values manually
-names = ['恒逸轮动策略', '飞鹰轮动策略', '希望轮动策略', '福莱轮动策略']
-max_diffs = [1.0, 1.0, 1.0, 1.0]
-min_diffs = [0.0, 0.0, 0.0, 0.0]
 periods = 0.2
 
 
 [stock]
-stock_ids = [['127022.SZ', '127067.SZ'], ['110047.SH', '110063.SH'], ['127015.SZ', '127049.SZ'], ['113661.SH', '113059.SH']]
+stock_ids = []
 sliding_point = 0.0005
 check_order_delay = 10
 
 [assets]
-position_avg_mode = false
-positions = [0.25, 0.25, 0.25, 0.25] # if you set position_avg_mode = false, set this manually
+position_avg_mode = true
+positions = [] # if you set position_avg_mode = false, set this manually
 
 [ui]
 port = 8080 # open http://127.0.0.1:8080/ to view ui, you can custom the server port
