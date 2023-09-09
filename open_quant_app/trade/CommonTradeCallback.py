@@ -1,5 +1,5 @@
-from open_quant_app.xtquant.xttrader import XtQuantTraderCallback
-from open_quant_app.xtquant.xttype import XtOrder, XtAsset, XtOrderError, XtOrderResponse, XtPosition, XtCancelError, \
+from xtquant.xttrader import XtQuantTraderCallback
+from xtquant.xttype import XtOrder, XtAsset, XtOrderError, XtOrderResponse, XtPosition, XtCancelError, \
     XtAccountStatus, XtTrade
 
 from loguru import logger

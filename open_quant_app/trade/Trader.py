@@ -3,9 +3,9 @@ from typing import List
 import math
 
 from open_quant_app.manager.PositionManager import PositionManager
-from open_quant_app.xtquant.xttrader import XtQuantTrader
-from open_quant_app.xtquant.xttype import StockAccount, XtOrder, XtAsset, XtPosition
-from open_quant_app.xtquant import xtconstant
+from xtquant.xttrader import XtQuantTrader
+from xtquant.xttype import StockAccount, XtOrder, XtAsset, XtPosition
+from xtquant import xtconstant
 from open_quant_app.trade.CommonTradeCallback import CommonXtQuantTraderCallback
 from open_quant_app.backtest.BackTester import BackTester
 
