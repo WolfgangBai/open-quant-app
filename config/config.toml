@@ -9,6 +9,7 @@ auto_mode = true
 names = ['恒逸轮动策略', '飞鹰轮动策略', '希望轮动策略', '福莱轮动策略']
 max_diffs = [1.0, 1.0, 1.0, 1.0]
 min_diffs = [0.0, 0.0, 0.0, 0.0]
+periods = 0.2
 
 
 [stock]
