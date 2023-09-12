@@ -18,7 +18,7 @@ class DownloadUtils:
         # parse
         stock_ids = []
         for i in range(len(config['stock']['stock_ids'])):
-            for j in range(2):
+            for j in range(len(config['stock']['stock_ids'][i])):
                 stock_ids.append(config['stock']['stock_ids'][i][j])
         # use an extra thread to download
         download_thread = None

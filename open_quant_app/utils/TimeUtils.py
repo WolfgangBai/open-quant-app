@@ -41,7 +41,7 @@ class TimeUtils:
         else:
             if TimeUtils.get_morning_end(timestamp) < timestamp < TimeUtils.get_afternoon_end(timestamp):
                 return TimeUtils.get_afternoon_start(timestamp)
-            elif timestamp > TimeUtils.get_afternoon_end():
+            elif timestamp > TimeUtils.get_afternoon_end(timestamp):
                 return TimeUtils.get_morning_start(timestamp) + timedelta(days=1)
             else:
                 return timestamp + timedelta(seconds=period)

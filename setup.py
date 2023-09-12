@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='open-quant-app',
-    version='0.1.2.1',
+    version='0.1.3.2',
     packages=find_packages(),
     install_requires=[
         'numpy',

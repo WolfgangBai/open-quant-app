@@ -32,8 +32,6 @@ class OrderManager:
         self.orders: List[OrderTuple] = []
         self.trader: Trader = trader
         self.stock_ids: [str] = stock_ids
-        self.low_stock: str = self.stock_ids[0]
-        self.high_stock: str = self.stock_ids[1]
         self.delay: float = delay
         self.sliding_point: float = sliding_point
 
